@@ -2,6 +2,38 @@
 	"version": "0.1.0",
 	"configurations": [
 		{
+			"name": "Python: Module",
+			"type": "python",
+			"request": "launch",
+			"module": "enter-your-module-name"
+		},
+		{
+			"type": "chrome",
+			"request": "launch",
+			"name": "Launch Chrome",
+			"url": "http://localhost:8080",
+			"webRoot": "${workspaceFolder}"
+		},
+		{
+			"type": "java",
+			"name": "Debug (Launch)",
+			"request": "launch",
+			"mainClass": ""
+		},
+		{
+			"type": "node",
+			"request": "attach",
+			"name": "Attach",
+			"port": 9229
+		},
+		{
+			"name": "Python: Current File",
+			"type": "python",
+			"request": "launch",
+			"program": "${file}",
+			"console": "integratedTerminal"
+		},
+		{
 			"type": "node",
 			"request": "launch",
 			"name": "Gulp Build",
